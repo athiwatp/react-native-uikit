@@ -309,6 +309,12 @@ ___
 | gutter  | Number | side padding |
 | radius   | Number | border radius size |
 | onPress   | Func | called on press  |
+| style   | Object | styles  |
+| containerStyle   | Card Container Style  |
+| imageStyle   | Object | Styles for the Image  |
+| contentStyle   | Object | Styles for the content wrapper  |
+| titleStyle   | Object | Styles applied to the title  |
+| linkStyle   | Object | styles applied to the link  |
 
 
 ### Carousel
