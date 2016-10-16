@@ -367,6 +367,7 @@ ___
 | size   | Number | width / height |
 | color   | String | color of button |
 | onPress   | Func | called on press  |
+| style   | Object | Styles  |
 
 ### DateItem
 
