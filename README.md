@@ -279,6 +279,8 @@ ___
 | fontSize   | Number | font size|
 | onPress   | Func | called on press |
 | children   | String | button text |
+| style   | Object | Button Styles |
+| textStyle   | String | button text styles |
 
 ### Card
 
