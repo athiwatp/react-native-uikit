@@ -389,6 +389,7 @@ ___
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
 | color   | String | color of text |
 | marginLeft  | Number | margin left |
+| style  | Object | Styles |
 
 ### Divider
 
