@@ -429,6 +429,8 @@ ___
 | error   | Bool | display message or not |
 | color   | String | color of text |
 | marginBottom   | Number | marginBottom |
+| style   | Object | Styles |
+| textStyle   | Object | Styles for text |
 
 ### Grid
 
