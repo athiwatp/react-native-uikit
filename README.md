@@ -310,7 +310,7 @@ ___
 | radius   | Number | border radius size |
 | onPress   | Func | called on press  |
 | style   | Object | styles  |
-| containerStyle   | Card Container Style  |
+| containerStyle   | Object | Card Container Style  |
 | imageStyle   | Object | Styles for the Image  |
 | contentStyle   | Object | Styles for the content wrapper  |
 | titleStyle   | Object | Styles applied to the title  |
