@@ -343,6 +343,9 @@ ___
 | images   | Array | array of images |
 | height   | Number | height of carousel |
 | gutter   | Number | padding to sides |
+| style   | Object | style applied to the ScrollView |
+| contentContainerStyle   | Object | contentContainerStyles for the ScrollView |
+| imageStyle   | Object | Styles applied to the Images |
 
 ### Close
 
