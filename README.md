@@ -552,6 +552,7 @@ ___
 | radius  | Number | border radius |
 | autoCapitalize  | String | default 'none' ('none', 'sentences', 'words', 'characters') |
 | autoCorrect | Bool | default false |
+| style | Object | Styles |
 
 ### LikeBtn
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/like-btn/index.js)
