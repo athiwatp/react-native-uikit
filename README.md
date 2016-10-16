@@ -573,6 +573,9 @@ ___
 | likes  | Number | number of likes |
 | color  | String | text color |
 | onPress | Func | called onPress |
+| style | Func | styles |
+| imageStyle | Func | styles applied to the Like Image |
+| textStyle | Func | styles applied to the text |
 
 
 
