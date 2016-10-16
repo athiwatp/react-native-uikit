@@ -407,6 +407,7 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | color   | String | color of divider |
+| style  | Object | Styles |
 
 ### FieldError
 
