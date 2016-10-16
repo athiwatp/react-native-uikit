@@ -797,6 +797,13 @@ ___
 ```javascript
 <RatingBox rating={4} outOf={5}/>
 ```
+| Prop | Type | Description |
+| :------| :-----------| :-----------|
+| rating | Number | Current Rating |
+| outOf  | Number | Max Rating  |
+| Style  | Object | Styles (Optional)  |
+| containerStyle | Object | Styles for Rating Container (Optional)  |
+| ratingStyle | Object | Styles for Individual Stars (Optional)  |
 
 ### ReviewCell
 
