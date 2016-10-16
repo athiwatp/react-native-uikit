@@ -720,6 +720,13 @@ ___
 | title | String | message title |
 | message | String | message body |
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
+| style  | Object | Styles (Optional)  |
+| containerStyle  | Object | Styles for message Container Wrapper (Optional)  |
+| headerStyle  | Object | Styles for Header (Optional)  |
+| userStyle  | Object | Styles for username text (Optional)  |
+| timestampStyle  | Object | Styles for timestamp text (Optional)  |
+| titleStyle  | Object | Styles for message title text (Optional)  |
+| messageStyle  | Object | Styles for message text (Optional)  |
 
 ### MessageList
 
