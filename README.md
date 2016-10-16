@@ -786,6 +786,9 @@ ___
 | backgroundImg  | String | background img src  |
 | circle  | Bool | profile img circular  |
 | blurRadius | Number | background img blur radius (default 0)  |
+| style | Object | Container Style (Optional)  |
+| profileImageStyle | Object | Styles for profile pic (Optional)  |
+| backgroundImageStyle | Object | Styles for background Image (Optional)  |
 
 ### RatingBox
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/rating-box/index.js)
