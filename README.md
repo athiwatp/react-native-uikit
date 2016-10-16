@@ -491,6 +491,8 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | images   | Array | images array |
+| style   | Object | Styles |
+| imageStyle   | Object | Style applied to every image |
 
 
 
