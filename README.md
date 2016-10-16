@@ -755,6 +755,16 @@ ___
 | headerContent   | Component | content for header (optional) |
 | footerContent   | Component | content for footer (optional)|
 | onPress   | Func | called by press returns message id |
+| style  | Object | Styles (Optional)  |
+| messgaeStyle  | Object | Styles applied to individual message (Optional)  |
+| messageContainerStyle  | Object | Styles for each message Container Wrapper (Optional)  |
+| headerStyle  | Object | Styles for Header (Optional)  |
+| messageHeaderStyle  | Object | Styles for each message Header (Optional)  |
+| footerStyle  | Object | Styles for Footer (Optional)  |
+| messageUserStyle  | Object | Styles for username text for each message (Optional)  |
+| messageTimestampStyle  | Object | Styles for timestamp text for each message (Optional)  |
+| messageTitleStyle  | Object | Styles for message title text for each message (Optional)  |
+| messageTextStyle  | Object | Styles for message text for each message (Optional)  |
 
 ### ProfileHeader
 
