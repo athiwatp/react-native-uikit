@@ -628,6 +628,7 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | onPress | Func | called onPress |
+| style | Object | Styles (Optional) |
 
 ### LoginForm
 
