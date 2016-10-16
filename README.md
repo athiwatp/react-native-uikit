@@ -120,6 +120,9 @@ ___
 | text   | String | body of text for article |
 | highLightColor   | String | text color for username |
 | onPress   | Func | called on press   |
+| style   | Object | Container Style   |
+| userStyle   | Object | Style applied to the username field   |
+| textStyle   | Object | Style applied to the text field   |
 
 ### ArticleList
 
