@@ -898,6 +898,9 @@ Component) (Optional) |
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | images | Array| images |
+| style | Object | Styles (Optional) |
+| contentContainerStyle | Object | contentContainerStyle (Optional) |
+| imageStyle | Object | Styles for the Image (Optional) |
 
 ### Time
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/time/index.js)
