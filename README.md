@@ -250,6 +250,8 @@ ___
 | radius   | Number | border radius size |
 | onPress   | Func | called on press |
 | children   | String | button text |
+| style   | Object | Button Styles |
+| textStyle   | String | button text styles |
 
 ### ButtonOutline
 
