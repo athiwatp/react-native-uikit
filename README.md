@@ -829,6 +829,15 @@ ___
 | description | String | item description |
 | src | String | item thumb src |
 | onPress | Func | called on press |
+| style | Object | Styles (Optional) |
+| containerStyle | Object | Styles for container (Optional) |
+| titleStyle | Object | Styles for title (Optional) |
+| descriptionStyle | Object | Styles for description (Optional) |
+| imageStyle | Object | Styles for image (Optional) |
+| ratingStyle | Object | Styles for rating (Optional) |
+| ratingContainerStyle | Object | Styles for rating Container (Optional) |
+| ratingStarStyle | Object | Styles for Stars in Rating (Equivalent of ratingStyle in Rating
+Component) (Optional) |
 
 ### Search (Deprecated  )
 ###### better alternative   https://github.com/umhan35/react-native-search-bar
