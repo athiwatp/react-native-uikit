@@ -656,6 +656,15 @@ ___
 | btnColor | String | submit btn text color |
 | inputRadius | String | radius of inputs |
 | btnRadius | String | radius of submit button |
+| style | Object | Styles (Optional) |
+| inputStyle | Object | Styles for username and password input fields (Optional) |
+| usernameStyle | Object | Styles for input field for username (Optional) |
+| passwordStyle | Object | Styles for input field for password (Optional) |
+| btnStyle | Object | Styles for Button (Optional) |
+| btnTextStyle | Object | Styles for Button Text (Optional) |
+| errorStyle | Object | Styles for Field Error (Optional) |
+| errorTextStyle | Object | Styles for Field Error Text (Optional) |
+
 
 ### MapSection (Deprecated  )
 ###### better alternative   https://github.com/lelandrichardson/react-native-maps
