@@ -605,7 +605,13 @@ ___
 | items  | Array | list items |
 | onPress | Func | called onPress |
 | headerContent   | Component | content for header (optional) |
-| footerContent   | Component | content for footer (optional)|
+| footerContent   | Component | content for footer (optional) |
+| style   | Object | Styles (optional) |
+| rowStyle   | Object | Styles for each row (optional) |
+| textStyle   | Object | Styles for Content (optional) |
+| imageStyle   | Object | Styles for Images (optional) |
+| headerStyle   | Object | Styles for Header Wrapper (optional) |
+| footerStyle   | Object | Styles for Footer Wrapper (optional) |
 
 ### LoginFb
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/login-fb/index.js)
