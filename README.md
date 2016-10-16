@@ -694,6 +694,7 @@ ___
 | fullHeight | Bool | display full height |
 | region | Obj | region on map |
 | annotations | Array | markers on map |
+| style | Object | Styles (Optional) |
 
 
 ### Message
