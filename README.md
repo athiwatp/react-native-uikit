@@ -158,6 +158,7 @@ ___
 | dateColor  | String | color of date   |
 | headerContent   | Component | content for header (optional) |
 | footerContent   | Component | content for footer (optional)|
+| onPress   | Func | called on press return cell id |
 | style   | Object | Style applied to individual Article Item TouchableOpacity |
 | containerStyle   | Object | Style applied to the container |
 | itemStyle   | Object | Style applied to individual Article Item  |
@@ -189,6 +190,10 @@ ___
 | size   | Number | height & width of img |
 | circle   | Bool | is circular |
 | onPress   | Func | called on press   |
+| style   | Object | Styles   |
+| containerStyle   | Object | Container Style   |
+| imageStyle   | Object | avatar image style   |
+
 
 ### AvatarHeader
 
@@ -215,6 +220,12 @@ ___
 | backgroundColor   | String | section background color |
 | gutter  | Number | spacing around  |
 | onPress   | Func | called on press   |
+| style   | Object | Styles   |
+| containerStyle   | Object | Container Style   |
+| dateStyle   | Object | Styles for Date   |
+| avatarStyle   | Object | Avatar Styles   |
+| avatarContainerStyle   | Object | Avatar Container Style   |
+| avatarImageStyle   | Object | avatar image style   |
 
 ### Button
 
