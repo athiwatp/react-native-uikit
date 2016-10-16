@@ -919,3 +919,4 @@ Component) (Optional) |
 | :------| :-----------| :-----------|
 | color | String | text color |
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
+| style  | Object | Styles (Optional)  |
