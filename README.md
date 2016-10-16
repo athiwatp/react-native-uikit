@@ -95,6 +95,9 @@ ___
 | color   | String | text color |
 | message   | String | message text |
 | onPress   | Func | called on press of close button  |
+| style   | Object | Container Style for the Alert Message  |
+| textStyle   | Object | Styling for the Text within the Alert Message  |
+| closeStyle   | Object | Styling for the close button  |
 
 ### ArticleText
 
