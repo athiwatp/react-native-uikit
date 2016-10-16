@@ -525,6 +525,8 @@ ___
 | blurRadius | Number | background img blur radius (default 0)  |
 | overlayColor | String | background overlay color  |
 | overlayOpacity | Number | background overlay opacity  |
+| style | Object | Styles  |
+| contentStyle | Object | Styles applied to the Content Wrapper within Image Custom  |
 
 
 ### InputField
