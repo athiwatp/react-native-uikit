@@ -155,7 +155,14 @@ ___
 | dateColor  | String | color of date   |
 | headerContent   | Component | content for header (optional) |
 | footerContent   | Component | content for footer (optional)|
-| onPress   | Func | called on press return cell id |
+| style   | Object | Style applied to individual Article Item TouchableOpacity |
+| containerStyle   | Object | Style applied to the container |
+| itemStyle   | Object | Style applied to individual Article Item  |
+| imageStyle   | Object | Style applied to the article image |
+| cellStyle   | Object | Style applied to the Article Cell |
+| cellTextStyle   | Object | Style applied to the wrapper text within the Article Cell |
+| textStyle   | Object | Style applied to the Title Text |
+| dateStyle   | Object | Style applied to the Date |
 
 ### Avatar
 
