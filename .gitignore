@@ -37,3 +37,12 @@ example/npm-debug.log
 
 node_modules/
 DemoApp/node_modules/
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/react-native-UIKit.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/jsLinters/jscs.xml
