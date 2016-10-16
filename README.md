@@ -466,6 +466,8 @@ ___
 | images   | Array | images array |
 | itemsPerRow   | Number | number of items per row |
 | spacing   | Number | spacing between cells |
+| style   | Object | Styles |
+| containerStyle   | Object | Grid Container Style |
 
 ### GalleryOffset
 
