@@ -95,6 +95,9 @@ ___
 | color   | String | text color |
 | message   | String | message text |
 | onPress   | Func | called on press of close button  |
+| style   | Object | Container Style for the Alert Message  |
+| textStyle   | Object | Styling for the Text within the Alert Message  |
+| closeStyle   | Object | Styling for the close button  |
 
 ### ArticleText
 
@@ -117,6 +120,9 @@ ___
 | text   | String | body of text for article |
 | highLightColor   | String | text color for username |
 | onPress   | Func | called on press   |
+| style   | Object | Container Style   |
+| userStyle   | Object | Style applied to the username field   |
+| textStyle   | Object | Style applied to the text field   |
 
 ### ArticleList
 
@@ -153,6 +159,14 @@ ___
 | headerContent   | Component | content for header (optional) |
 | footerContent   | Component | content for footer (optional)|
 | onPress   | Func | called on press return cell id |
+| style   | Object | Style applied to individual Article Item TouchableOpacity |
+| containerStyle   | Object | Style applied to the container |
+| itemStyle   | Object | Style applied to individual Article Item  |
+| imageStyle   | Object | Style applied to the article image |
+| cellStyle   | Object | Style applied to the Article Cell |
+| cellTextStyle   | Object | Style applied to the wrapper text within the Article Cell |
+| textStyle   | Object | Style applied to the Title Text |
+| dateStyle   | Object | Style applied to the Date |
 
 ### Avatar
 
@@ -176,6 +190,10 @@ ___
 | size   | Number | height & width of img |
 | circle   | Bool | is circular |
 | onPress   | Func | called on press   |
+| style   | Object | Styles   |
+| containerStyle   | Object | Container Style   |
+| imageStyle   | Object | avatar image style   |
+
 
 ### AvatarHeader
 
@@ -202,6 +220,12 @@ ___
 | backgroundColor   | String | section background color |
 | gutter  | Number | spacing around  |
 | onPress   | Func | called on press   |
+| style   | Object | Styles   |
+| containerStyle   | Object | Container Style   |
+| dateStyle   | Object | Styles for Date   |
+| avatarStyle   | Object | Avatar Styles   |
+| avatarContainerStyle   | Object | Avatar Container Style   |
+| avatarImageStyle   | Object | avatar image style   |
 
 ### Button
 
@@ -226,6 +250,8 @@ ___
 | radius   | Number | border radius size |
 | onPress   | Func | called on press |
 | children   | String | button text |
+| style   | Object | Button Styles |
+| textStyle   | String | button text styles |
 
 ### ButtonOutline
 
@@ -253,6 +279,8 @@ ___
 | fontSize   | Number | font size|
 | onPress   | Func | called on press |
 | children   | String | button text |
+| style   | Object | Button Styles |
+| textStyle   | String | button text styles |
 
 ### Card
 
@@ -281,6 +309,12 @@ ___
 | gutter  | Number | side padding |
 | radius   | Number | border radius size |
 | onPress   | Func | called on press  |
+| style   | Object | styles  |
+| containerStyle   | Object | Card Container Style  |
+| imageStyle   | Object | Styles for the Image  |
+| contentStyle   | Object | Styles for the content wrapper  |
+| titleStyle   | Object | Styles applied to the title  |
+| linkStyle   | Object | styles applied to the link  |
 
 
 ### Carousel
@@ -309,6 +343,9 @@ ___
 | images   | Array | array of images |
 | height   | Number | height of carousel |
 | gutter   | Number | padding to sides |
+| style   | Object | style applied to the ScrollView |
+| contentContainerStyle   | Object | contentContainerStyles for the ScrollView |
+| imageStyle   | Object | Styles applied to the Images |
 
 ### Close
 
@@ -330,6 +367,7 @@ ___
 | size   | Number | width / height |
 | color   | String | color of button |
 | onPress   | Func | called on press  |
+| style   | Object | Styles  |
 
 ### DateItem
 
@@ -351,6 +389,7 @@ ___
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
 | color   | String | color of text |
 | marginLeft  | Number | margin left |
+| style  | Object | Styles |
 
 ### Divider
 
@@ -368,6 +407,7 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | color   | String | color of divider |
+| style  | Object | Styles |
 
 ### FieldError
 
@@ -389,6 +429,8 @@ ___
 | error   | Bool | display message or not |
 | color   | String | color of text |
 | marginBottom   | Number | marginBottom |
+| style   | Object | Styles |
+| textStyle   | Object | Styles for text |
 
 ### Grid
 
@@ -424,6 +466,8 @@ ___
 | images   | Array | images array |
 | itemsPerRow   | Number | number of items per row |
 | spacing   | Number | spacing between cells |
+| style   | Object | Styles |
+| containerStyle   | Object | Grid Container Style |
 
 ### GalleryOffset
 
@@ -449,6 +493,8 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | images   | Array | images array |
+| style   | Object | Styles |
+| imageStyle   | Object | Style applied to every image |
 
 
 
@@ -479,6 +525,8 @@ ___
 | blurRadius | Number | background img blur radius (default 0)  |
 | overlayColor | String | background overlay color  |
 | overlayOpacity | Number | background overlay opacity  |
+| style | Object | Styles  |
+| contentStyle | Object | Styles applied to the Content Wrapper within Image Custom  |
 
 
 ### InputField
@@ -504,6 +552,7 @@ ___
 | radius  | Number | border radius |
 | autoCapitalize  | String | default 'none' ('none', 'sentences', 'words', 'characters') |
 | autoCorrect | Bool | default false |
+| style | Object | Styles |
 
 ### LikeBtn
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/like-btn/index.js)
@@ -524,6 +573,9 @@ ___
 | likes  | Number | number of likes |
 | color  | String | text color |
 | onPress | Func | called onPress |
+| style | Func | styles |
+| imageStyle | Func | styles applied to the Like Image |
+| textStyle | Func | styles applied to the text |
 
 
 
@@ -553,7 +605,13 @@ ___
 | items  | Array | list items |
 | onPress | Func | called onPress |
 | headerContent   | Component | content for header (optional) |
-| footerContent   | Component | content for footer (optional)|
+| footerContent   | Component | content for footer (optional) |
+| style   | Object | Styles (optional) |
+| rowStyle   | Object | Styles for each row (optional) |
+| textStyle   | Object | Styles for Content (optional) |
+| imageStyle   | Object | Styles for Images (optional) |
+| headerStyle   | Object | Styles for Header Wrapper (optional) |
+| footerStyle   | Object | Styles for Footer Wrapper (optional) |
 
 ### LoginFb
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/login-fb/index.js)
@@ -570,6 +628,7 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | onPress | Func | called onPress |
+| style | Object | Styles (Optional) |
 
 ### LoginForm
 
@@ -597,6 +656,15 @@ ___
 | btnColor | String | submit btn text color |
 | inputRadius | String | radius of inputs |
 | btnRadius | String | radius of submit button |
+| style | Object | Styles (Optional) |
+| inputStyle | Object | Styles for username and password input fields (Optional) |
+| usernameStyle | Object | Styles for input field for username (Optional) |
+| passwordStyle | Object | Styles for input field for password (Optional) |
+| btnStyle | Object | Styles for Button (Optional) |
+| btnTextStyle | Object | Styles for Button Text (Optional) |
+| errorStyle | Object | Styles for Field Error (Optional) |
+| errorTextStyle | Object | Styles for Field Error Text (Optional) |
+
 
 ### MapSection (Deprecated  )
 ###### better alternative   https://github.com/lelandrichardson/react-native-maps
@@ -626,6 +694,7 @@ ___
 | fullHeight | Bool | display full height |
 | region | Obj | region on map |
 | annotations | Array | markers on map |
+| style | Object | Styles (Optional) |
 
 
 ### Message
@@ -651,6 +720,13 @@ ___
 | title | String | message title |
 | message | String | message body |
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
+| style  | Object | Styles (Optional)  |
+| containerStyle  | Object | Styles for message Container Wrapper (Optional)  |
+| headerStyle  | Object | Styles for Header (Optional)  |
+| userStyle  | Object | Styles for username text (Optional)  |
+| timestampStyle  | Object | Styles for timestamp text (Optional)  |
+| titleStyle  | Object | Styles for message title text (Optional)  |
+| messageStyle  | Object | Styles for message text (Optional)  |
 
 ### MessageList
 
@@ -679,6 +755,16 @@ ___
 | headerContent   | Component | content for header (optional) |
 | footerContent   | Component | content for footer (optional)|
 | onPress   | Func | called by press returns message id |
+| style  | Object | Styles (Optional)  |
+| messgaeStyle  | Object | Styles applied to individual message (Optional)  |
+| messageContainerStyle  | Object | Styles for each message Container Wrapper (Optional)  |
+| headerStyle  | Object | Styles for Header (Optional)  |
+| messageHeaderStyle  | Object | Styles for each message Header (Optional)  |
+| footerStyle  | Object | Styles for Footer (Optional)  |
+| messageUserStyle  | Object | Styles for username text for each message (Optional)  |
+| messageTimestampStyle  | Object | Styles for timestamp text for each message (Optional)  |
+| messageTitleStyle  | Object | Styles for message title text for each message (Optional)  |
+| messageTextStyle  | Object | Styles for message text for each message (Optional)  |
 
 ### ProfileHeader
 
@@ -700,6 +786,9 @@ ___
 | backgroundImg  | String | background img src  |
 | circle  | Bool | profile img circular  |
 | blurRadius | Number | background img blur radius (default 0)  |
+| style | Object | Container Style (Optional)  |
+| profileImageStyle | Object | Styles for profile pic (Optional)  |
+| backgroundImageStyle | Object | Styles for background Image (Optional)  |
 
 ### RatingBox
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/rating-box/index.js)
@@ -708,6 +797,13 @@ ___
 ```javascript
 <RatingBox rating={4} outOf={5}/>
 ```
+| Prop | Type | Description |
+| :------| :-----------| :-----------|
+| rating | Number | Current Rating |
+| outOf  | Number | Max Rating  |
+| Style  | Object | Styles (Optional)  |
+| containerStyle | Object | Styles for Rating Container (Optional)  |
+| ratingStyle | Object | Styles for Individual Stars (Optional)  |
 
 ### ReviewCell
 
@@ -733,6 +829,15 @@ ___
 | description | String | item description |
 | src | String | item thumb src |
 | onPress | Func | called on press |
+| style | Object | Styles (Optional) |
+| containerStyle | Object | Styles for container (Optional) |
+| titleStyle | Object | Styles for title (Optional) |
+| descriptionStyle | Object | Styles for description (Optional) |
+| imageStyle | Object | Styles for image (Optional) |
+| ratingStyle | Object | Styles for rating (Optional) |
+| ratingContainerStyle | Object | Styles for rating Container (Optional) |
+| ratingStarStyle | Object | Styles for Stars in Rating (Equivalent of ratingStyle in Rating
+Component) (Optional) |
 
 ### Search (Deprecated  )
 ###### better alternative   https://github.com/umhan35/react-native-search-bar
@@ -793,6 +898,9 @@ ___
 | Prop | Type | Description |
 | :------| :-----------| :-----------|
 | images | Array| images |
+| style | Object | Styles (Optional) |
+| contentContainerStyle | Object | contentContainerStyle (Optional) |
+| imageStyle | Object | Styles for the Image (Optional) |
 
 ### Time
 [source](https://github.com/andyfenelon/react-native-UIKit/blob/master/lib/time/index.js)
@@ -811,3 +919,4 @@ ___
 | :------| :-----------| :-----------|
 | color | String | text color |
 | timestamp  | Number | Unix Timestamp (milliseconds)  |
+| style  | Object | Styles (Optional)  |
