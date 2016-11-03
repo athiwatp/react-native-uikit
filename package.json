@@ -1,6 +1,6 @@
 {
   "name": "react-native-uikit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Collection of Presentation Components for React Native",
   "private": false,
   "main": "lib/index.js",
